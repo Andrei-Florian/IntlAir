@@ -626,7 +626,7 @@ static void SendTelemetry(int val1, int val2, float val3, int bool1, int bool2, 
 {
 	static char eventBuffer[110] = { 0 };
 	static const char* EventMsgTemplate = JSONBuffer;
-	int len = snprintf(eventBuffer, sizeof(eventBuffer), EventMsgTemplate, "co2", val1, "tvoc", val2, "pressure", val3, "purifier", bool1, "fan", bool2, "timestamp", time);
+	int len = snprintf(eventBuffer, sizeof(eventBuffer), EventMsgTemplate, "co2", val1, "tvoc", val2, "pressure", val3, "purifier", bool1, "fan", bool2, "time", time);
 	if (len < 0)
 		return;
 
