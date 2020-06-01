@@ -1,0 +1,8 @@
+lastFan = 
+VAR _MaxTime =
+    CALCULATE (
+        MAX ( 'IntlAir'[time] ),
+        KEEPFILTERS ( ALL ( 'IntlAir'[time] ) )
+    )
+RETURN
+    CALCULATE ( SUM ( 'IntlAir'[isFanOn] ), 'IntlAir'[time] = _MaxTime )

@@ -1,0 +1,8 @@
+Tvoc Now = 
+VAR _MaxTime =
+    CALCULATE (
+        MAX ( 'IntlAir'[time] ),
+        KEEPFILTERS ( ALL ( 'IntlAir'[time] ) )
+    )
+RETURN
+    CALCULATE ( SUM ( 'IntlAir'[tvoc] ), 'IntlAir'[time] = _MaxTime )

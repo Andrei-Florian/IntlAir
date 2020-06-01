@@ -1,0 +1,6 @@
+Is Purifier On = 
+VAR string = {
+    IF(IntlAir[lastPurifier] == 0, "No", "Yes") // convert 0 and 1 to false and true
+}
+
+RETURN string

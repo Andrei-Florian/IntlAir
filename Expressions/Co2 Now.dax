@@ -1,0 +1,8 @@
+Co2 Now = 
+VAR _MaxTime =
+    CALCULATE (
+        MAX ( 'IntlAir'[time] ),
+        KEEPFILTERS ( ALL ( 'IntlAir'[time] ) )
+    )
+RETURN
+    CALCULATE ( SUM ( 'IntlAir'[co2] ), 'IntlAir'[time] = _MaxTime )

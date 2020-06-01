@@ -1,0 +1,8 @@
+lastPurifier = 
+VAR _MaxTime =
+    CALCULATE (
+        MAX ( 'IntlAir'[time] ),
+        KEEPFILTERS ( ALL ( 'IntlAir'[time] ) )
+    )
+RETURN
+    CALCULATE ( SUM ( 'IntlAir'[isPurifierOn] ), 'IntlAir'[time] = _MaxTime )

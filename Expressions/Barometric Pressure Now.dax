@@ -1,0 +1,8 @@
+Barometric Pressure Now = 
+VAR _MaxTime =
+    CALCULATE (
+        MAX ( 'IntlAir'[time] ),
+        KEEPFILTERS ( ALL ( 'IntlAir'[time] ) )
+    )
+RETURN
+    CALCULATE ( SUM ( 'IntlAir'[pressure] ), 'IntlAir'[time] = _MaxTime )
