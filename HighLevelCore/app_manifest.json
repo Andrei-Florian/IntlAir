@@ -3,12 +3,12 @@
   "Name": "AzureIoT",
   "ComponentId": "819255ff-8640-41fd-aea7-f85d34c491d5",
   "EntryPoint": "/bin/app",
-  "CmdArgs": [ "" ],
+  "CmdArgs": [ "" ], // EDIT - DPS ID Scope
   "Capabilities": {
-    "AllowedConnections": [ "global.azure-devices-provisioning.net", "" ],
+    "AllowedConnections": [ "global.azure-devices-provisioning.net", "" ], // EDIT - Add IoT Hub endpoint URL ({your hub name (no brackets)}.azure-devices.net)
     "Gpio": [1, 9, 35],
     "I2cMaster": [ "ISU2" ],
-    "DeviceAuthentication": "8cd4b248-325f-4b29-bff7-da37ba2cbaad"
+    "DeviceAuthentication": "" // EDIT - Your tenant ID
   },
   "ApplicationType": "Default"
 }
