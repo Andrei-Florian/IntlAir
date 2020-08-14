@@ -1,0 +1,11 @@
+﻿{
+  "SchemaVersion": 1,
+  "Name": "helloWorldAzureIoT_RealTimeCore",
+  "ComponentId": "db370d65-a585-4b1c-b61d-bdbf7b84fee9",
+  "EntryPoint": "/bin/app",
+  "CmdArgs": [],
+  "Capabilities": {
+    "AllowedApplicationConnections": [ "dbec41f0-2b5c-46e7-b392-ac03c8b511ad" ]
+  },
+  "ApplicationType": "RealTimeCapable"
+}
