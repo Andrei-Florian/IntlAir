@@ -1,5 +1,5 @@
 # Overview
-![Cover Image](https://www.element14.com/community/servlet/JiveServlet/downloadImage/38-35504-885484/Cover+Image.jpg)
+![Cover Image](https://www.element14.com/community/servlet/JiveServlet/showImage/38-35504-885484/Cover+Image.jpg)
 
 People spend most of their day at home, they wake up, go to work, then come back and stay until the next day. We all try to beautify our home environment through the addition of sometimes extravagant furniture and flowers. But we do not pay that much attention to the air inside our home.
 
