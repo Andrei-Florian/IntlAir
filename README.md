@@ -1,6 +1,4 @@
 # Overview
-![Cover Image](https://www.element14.com/community/servlet/JiveServlet/showImage/38-35504-885484/Cover+Image.jpg)
-
 People spend most of their day at home, they wake up, go to work, then come back and stay until the next day. We all try to beautify our home environment through the addition of sometimes extravagant furniture and flowers. But we do not pay that much attention to the air inside our home.
 
 Studies show that indoor air we breath in most of the day is 3 to 4 times more polluted than the air outside our house. This refers to the higher amount of carbon dioxide as well as volatile organic compounds (VOCs) which are harmful for our lives.
