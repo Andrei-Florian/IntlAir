@@ -1,5 +1,5 @@
 # Overview
-![Cover Image](https://hackster.imgix.net/uploads/attachments/499736/cover_image_PZNufTcw4c.JPG?auto=compress%2Cformat&w=900&h=675&fit=min)
+![Cover Image](https://github.com/Andrei-Florian/IntlAir/blob/master/img/Cover%20Image.jpg)
 
 People spend most of their day at home, they wake up, go to work, then come back and stay until the next day. We all try to beautify our home environment through the addition of sometimes extravagant furniture and flowers. But we do not pay that much attention to the air inside our home.
 
